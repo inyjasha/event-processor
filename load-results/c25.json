@@ -1,0 +1,40 @@
+{
+  "run_id": "load-91d4f828d35c418e86e6bccf75de6a8b",
+  "started_at_utc": "2026-09-13T14:58:53.478414+00:00",
+  "generator_python": "3.12.10",
+  "generator_platform": "Windows-11-10.0.26200-SP0",
+  "api_url": "http://127.0.0.1:8000",
+  "pairs": 2000,
+  "requests": 4000,
+  "concurrency": 25,
+  "request_timeout_seconds": 10,
+  "drain_timeout_seconds": 300.0,
+  "ingest_seconds": 13.048,
+  "completed_requests_per_second": 306.56,
+  "accepted_events_per_second": 306.56,
+  "unsuccessful_requests": 0,
+  "outcomes": {
+    "accepted_new": 4000
+  },
+  "all_requests_p50_ms": 41.54,
+  "all_requests_p95_ms": 263.75,
+  "all_requests_p99_ms": 420.04,
+  "accepted_requests_p95_ms": 263.75,
+  "database_clicks": 2000,
+  "queue_after_ingest": {
+    "payments": 2000,
+    "delivered": 1713,
+    "pending": 287,
+    "attempts": 1713
+  },
+  "final_state": {
+    "payments": 2000,
+    "delivered": 2000,
+    "pending": 0,
+    "attempts": 2000
+  },
+  "drain_wait_seconds": 2.018,
+  "total_seconds": 15.07,
+  "all_payments_delivered": true,
+  "average_deliveries_per_second_over_run": 132.71
+}

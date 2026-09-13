@@ -1,0 +1,12 @@
+.venv/
+.git/
+.env
+.env.*
+__pycache__/
+*.pyc
+tmp/
+output/
+
+check_claim.py
+check_db.py
+coroutine_demo.py
